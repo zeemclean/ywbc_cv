@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* reduced width of main body to control column width*/
+main {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.SMI /*social media icons*/ {
+	height: 40px;
+	width: 40px
+}
