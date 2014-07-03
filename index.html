@@ -3,26 +3,23 @@
 <head>
 	<title>Zoë Mclean's Curriculum Vitae</title>
 	<link type="text/css" rel="stylesheet" href="CSS/main.css"/>
-	<meta charset="UTF-8" name="Zoë McLean">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 
 <!-- Body Starts Here -->
 <body>
 	<!-- Header containg main contact methods and picture -->
-	<header>
-		<img src="assets/self_portrait.jpg" id="self" alt="Artist selfportrait of Zoë Mclean"/>
+	<header class="highlight">
+		<img src="assets/self_portrait.jpg" id="self" class="highlight" alt="Artist selfportrait of Zoë Mclean"/>
 		<div id="name"><h1>Zoë McLean</h1></div>
-		<div id="contacts">
-			<p>Phone: 021 2090913</p>
-			<a href="mailto:zoeakmclean@gmail.com">... or email me.</a>
-		</div>
 	</header>
 	
-	
+	<img src="assets/logo_lipstick.gif" id="logo_top"  alt="Zoë McLean logo">
 	<!-- Main Body with Text -->
 	<main>
 		<section>
-			<p id="about">Helpful and friendly with a passion for visual communication. Attentive to detail, cool under pressure, honest, reliable and hard working. I want to help people tell stories.</p>
+			<p id="about" class="highlight"><strong>Hi, my name is Zoë. I know web design can be a powerful tool. It can connect and share, inform and illustrate. I want to use it to connect to people and help them tell their stories.</strong></p>
 			<article id="skills" class="body_copy">
 				<h2>Skills</h2>
 				<ul>
@@ -50,6 +47,7 @@
 				<h2>Work History</h2>
 				<!-- Table containing job on the left and period of time on the right-->
 				<table>
+					<col width="450">
 					<tr>
 						<td class="job">
 							<h4>Freelance Graphic Design</h4>
@@ -99,17 +97,30 @@
 	<!--End of main. Footer containing social media buttons-->
 	<footer>
 		<div id="icons">
+			<div class="button button_link">
+				<a href="mailto:zoeakmclean@gmail.com"><img src="assets/button_text.png" alt="Email Button"></a>
+			</div>	
+
 			<a class="button_link" href="https://twitter.com/ZoeAKMclean">
 				<img class="SMI" src="http://upload.wikimedia.org/wikipedia/commons/f/f3/Twitter_icon.png" alt="twitter link">
 			</a>
-			<br>
+			
 			<a class="button_link" href="http://nz.linkedin.com/pub/zo-xeb-mclean/8a/61/530">
 				<img src="assets/linkedin-icon.png" alt="Linked In icon" class="SMI">
 			</a>
-			<br>
+			
 			<a class="button_link" href="https://www.behance.net/ZeeMcLean">
 				<img class="SMI" src="assets/Behance.png" alt="Behance Icon">
 			</a>
+			
+				<p id="contacts">
+				Zoë Alison Knauf McLean
+				<br>| <strong>Phone</strong>: 021 2090913
+				<br>| <strong>Email</strong>: zoeakmclean@gmail.com
+				</p>
+			
+			<img src="assets/logo_marshmellow.gif" alt="Zoë Mclean logo" id="logo_bottom"/>
+			</div>
 		</div>
 	</footer>
 </body>

@@ -16,14 +16,12 @@ header {
 	height: 150px;
 	width: 1180px;
 	background-color: 310d0d;
-	border: 10px solid #f7dfdf;
 	position: fixed;
 }
 #self {
 	width: 200px;
 	height: 300px;
 	float:left;
-	border: 10px solid #f7dfdf;
 	margin-left: 50px;
 }
 
@@ -38,8 +36,12 @@ h1 {
 
 }
 
-#contacts {
-	float:right;
+#logo_top {
+	float: right;
+	height: 200px;
+	width: 300px;
+	opacity: 0.5;
+
 }
 
 /* reduced width of main body to control column width*/
@@ -47,28 +49,56 @@ main {
 	width: 1200px;
 	margin: 0 auto;
 	background-image: url("../assets/bodybg.jpg");
-	margin-bottom: 0;
+	
+
 }
 section {
 	width: 700px;
 	margin: auto;
-	padding-top: 200px;
+	padding-top: 170px;
 	padding-bottom: 50px;
+	color: #451211;
+}
+h2 {
+	color: #cb3535;
 }
 
 #about {
 	font-size: 18px;
 	display: block;
-	padding-left: 40%;
+	float:right;
+	margin-left: 100px;
+	padding:10px;
+	color: #cb3535;
+	background-color; #310d0d;
+
+
 }
 .body_copy {
 	padding: 10px;
 	margin-left: 20px;
 }
 
+
+.highlight {
+		border: 10px solid #f7dfdf;
+}
+
+footer {
+	height:150px;
+	background-image: url("../assets/footer_bg.gif");
+	border: 10px solid #f7dfdf;
+	margin-top: 0;
+}
+
+#icons {
+	margin-left: 40px;
+}
+
 .button_link {
 	float: left;
 	margin: 20px;
+	margin-top: 40px;
 
 }
 
@@ -77,9 +107,26 @@ section {
 	width: 40px;
 }
 
-footer {
-	height:150px;
-	background-color: #cb3535;
-	border: 10px solid #f7dfdf;
-	margin-top: 0;
+.button {
+	/*background-image: url("../assets/button.png");*/
+	width: 112px;
+	height: 40px;
 }
+
+#contacts {
+	float: left;
+	padding-left: 75px;
+	padding-top: 10px;
+	color: #f7dfdf;
+	font-size: 18px;
+}
+
+#logo_bottom {
+	float: right;
+	height: 120px;
+	width: 180px;
+	margin-right: 75px;
+
+}
+
+
