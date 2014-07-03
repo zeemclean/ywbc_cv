@@ -1,18 +1,63 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	background-color: #8c7373;
+}
+
 body {
 	width: 1200px;
 	margin: 0 auto;
+
+
+}
+
+header {
+	height: 150px;
+	width: 1180px;
+	background-color: #cb3535;
+	border: 10px solid #f7dfdf;
+	position: fixed;
+}
+#self {
+	width: 200px;
+	height: 300px;
+	float:left;
+	border: 10px solid #f7dfdf;
+}
+ 
+#contacts {
+	float:right;
 }
 
 /* reduced width of main body to control column width*/
 main {
-	width: 700px;
+	width: 1200px;
 	margin: 0 auto;
+	background-image: url("../assets/bodybg.jpg");
+}
+section {
+	width: 700px;
+	margin: auto;
+	margin-top: 200px;
+}
+
+.body_copy {
+}
+
+.button_link {
+	float: left;
+	margin: 20px;
+
 }
 
 .SMI /*social media icons*/ {
 	height: 40px;
-	width: 40px
+	width: 40px;
+}
+
+footer {
+	height:150px;
+	background-color: #cb3535;
+	border: 10px solid #f7dfdf;
 }
