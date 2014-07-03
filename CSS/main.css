@@ -15,7 +15,7 @@ body {
 header {
 	height: 150px;
 	width: 1180px;
-	background-color: #cb3535;
+	background-color: 310d0d;
 	border: 10px solid #f7dfdf;
 	position: fixed;
 }
@@ -24,8 +24,20 @@ header {
 	height: 300px;
 	float:left;
 	border: 10px solid #f7dfdf;
+	margin-left: 50px;
+}
+
+h1 { 
+	color: #f7dfdf;
 }
  
+#name {
+	float:left;
+	padding-left: 200px;
+	font-size: 42px;
+
+}
+
 #contacts {
 	float:right;
 }
@@ -35,14 +47,23 @@ main {
 	width: 1200px;
 	margin: 0 auto;
 	background-image: url("../assets/bodybg.jpg");
+	margin-bottom: 0;
 }
 section {
 	width: 700px;
 	margin: auto;
-	margin-top: 200px;
+	padding-top: 200px;
+	padding-bottom: 50px;
 }
 
+#about {
+	font-size: 18px;
+	display: block;
+	padding-left: 40%;
+}
 .body_copy {
+	padding: 10px;
+	margin-left: 20px;
 }
 
 .button_link {
@@ -60,4 +81,5 @@ footer {
 	height:150px;
 	background-color: #cb3535;
 	border: 10px solid #f7dfdf;
+	margin-top: 0;
 }
