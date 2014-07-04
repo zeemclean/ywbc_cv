@@ -15,7 +15,6 @@ body {
 header {
 	height: 150px;
 	width: 1180px;
-	background-color: 310d0d;
 	position: fixed;
 }
 #self {
@@ -88,7 +87,6 @@ h4 {
 	padding: 10px;
 	margin-left: 20px;
 }
-
 
 .highlight {
 		border: 10px solid #f7dfdf;
